@@ -1,0 +1,199 @@
+<!-- 
+    Author:         Luc Jacob
+    Content:        HTML with connections to CSS (with flex)
+    Purpose:        Website development Tutorial
+    Date Updated:   July 17th 2022
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development Tutorial</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+
+<body>
+
+    <!-- main header -->
+    <header id="mainHeader">
+        <div class="container">
+            <h1>Website Development Tutorial</h1>
+        </div>
+    </header>
+
+    <!-- overhead navigational bar -->
+    <nav id="mainNav">
+        <div>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Content">Content</a></li>
+                <li><a href="Author">Author</a></li>
+                <li><a href="Help">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- starting image with text -->
+    <section id="jumbo">
+        <div class="container">
+            <h1>Why pay someone else to hold the tool?</h1>
+        </div>
+    </section>
+
+    <!-- flexbox -->
+    <div class="flexContainer">
+
+        <!-- main content -->
+        <div class="flexItem flexMain">
+            <section id="main">
+
+                <h2>Welcome to our course!</h2>
+                <p>
+                    You have made the first step on the great adventure to gaining digital independance. 
+                </p>
+        
+                <!-- Prank on Farah  -->
+                <h3>Before anything else, watch this video:</h3>
+                <a href="https://www.youtube.com/watch?v=iik25wqIuFo">Introduction before the introduction</a> 
+        
+                <!-- Introduction Level  -->
+                <p id="introBookMark">
+                    <h2>1.0 Introduction</h2>
+                </p>
+
+                <!-- Introduction Blurb  -->
+                <p>Before you get into coding, it is important to understand the full picture. Below are a few good introduction videos to how website development works, as well as how to set up your computer for coding:
+                </p>
+        
+                <!-- Introduction Videos  -->
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=5YDVJaItmaY">General Overview</a>
+                    </li>
+        
+                    <li>
+                        <a href="https://youtu.be/4NfFFsQC77M">VSCode Setup</a>
+                    </li>
+        
+                    <li>
+                        <a href="https://youtu.be/phxIlDIEYmU">Setting up VSCode for HTML</a>
+                    </li>
+                </ul>
+        
+                <hr>
+        
+                <!-- HTML Level  -->
+                <p id="HTMLBookMark">
+                    <h2>2.0 Learning HTML</h2>
+                </p>
+        
+                <!-- HTML Blurb  -->
+                <p>
+                    HTML is technically not a programming language, but it is vital to have a deep understanding in order to do any front-end coding. The following video will walk you through the core HTML functions and tags. It is important to write your own code along with the videos.
+                </p>
+        
+                <!-- HTML Videos  -->
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=XiQ9rjaa2Ow">HTML CrashCourse</a>
+                    </li>
+                </ul>
+        
+                <!-- HTML Practice  -->
+                <h4>2.1 Practice HTML</h4>
+        
+                <p>After watching the crashcourse and following along, it is important to apply this learning to your own creativity. For example, I made this website, but you can make a basic website about anything. Make sure to practice these main points:    
+                </p>
+        
+                <!-- HTML Main points to practice  -->
+                <ul>
+                    <li>Making Lists</li>
+                    <li>Making Paragraphs and editing them</li>
+                    <li>Attaching Images and Links</li>
+                    <li>Integrating Links into Lists and Images</li>
+                    <li>Making Tables and Forms</li>
+                </ul>
+        
+                <!-- CSS Level  -->
+                <p id="CSSBookMark"> 
+                    <h2>3.0 Learning CSS</h2>
+                </p>
+        
+                <!-- CSS Blurb  -->
+                <p>
+                    Now that you know how to make a simple website, it is time to make it look less ugly. That is where CSS comes in. Watch the following video and then do the practice:
+                </p>
+        
+                <!-- CSS Videos  -->
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=Tfjd5yzCaxk">CSS CrashCourse</a>
+                    </li>
+                </ul>
+        
+                <!-- CSS Practice -->
+                <h4>3.1 Practice Basic CSS</h4>
+        
+                <p>
+                    After watching the CSS crashcourse and following along, to soak in the things you learned, add these elements to your HTML website from 2.1:
+                </p>
+        
+                <!-- CSS elements to add -->
+                <ul>
+                    <li>Color, font size, and font style to body and headings</li>
+                    <li>Nagigational bar</li>
+                    <li>Footer</li>
+                    <li>Background image</li>
+                    <li>Fixed element</li>
+                    <li>sidebar</li>
+                    <li>Make website responsive</li>
+                        <li>sticky, fixed, etc.</li>
+                </ul>
+        
+                <!-- Positionning -->
+                <h4>3.2 Positioning in CSS</h4>
+        
+                <ul>
+            
+                    <li><a href="https://www.youtube.com/watch?v=qqDH0T6K5gY" target="blank">CSS FlexBox</a></li>
+                    <li> <a href="https://www.youtube.com/watch?v=0-DY8J_skZ0" target="blank">CSS Grid</a> </li>    
+                    
+                </ul>             
+
+            </section>
+        </div>
+    
+        <!-- sidebar -->
+        <div class="flexItem flexSidebar">
+            <aside id="sideNav">
+            <h2>Content:</h2>
+            <ul>
+                <li><a href="#introBookMark">Introduction</a></li>
+                <li><a href="#HTMLBookMark">Learning HTML</a></li>
+                <li><a href="#CSSBookMark">Learning CSS</a></li>
+                <li><a href="#CSSBookMark">Learning Javascript</a></li>
+                <li><a href="#CSSBookMark">Github</a></li>
+                <li><a href="#CSSBookMark">Packages</a></li>
+                <li><a href="#CSSBookMark">CSS Frameworks</a></li>
+                <li><a href="#CSSBookMark">Javascript Frameworks</a></li>
+                <li><a href="#CSSBookMark">Hosting</a></li>
+            </ul>
+                
+            </aside>
+        </div>
+
+    
+    </div>
+
+    <footer id="mainFooter">
+        <p>
+            copyright &copy; 2022 Website Development Guide
+        </p>
+    </footer>
+
+</body>
+</html>
